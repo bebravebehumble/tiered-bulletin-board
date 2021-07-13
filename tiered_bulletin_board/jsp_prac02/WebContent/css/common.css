@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+#registForm {
+	width: 500px;
+	height: 600px;
+	border: 1px solid red;
+	margin: auto;
+}
+
+h2 {
+	text-align: center;
+}
+
+table {
+	margin: auto;
+	width: 450px;
+}
+
+#tr_top {
+	background: orange;
+	text-align: center;
+}
+
+#pageList {
+	margin: auto;
+	width: 500px;
+	text-align: center;
+}
+
+#emptyArea {
+	margin: auto;
+	width: 500px;
+	text-align: center;
+}
+
+.td_left {
+	width: 150px;
+	background: orange;
+}
+
+.td_right {
+	width: 300px;
+	background: skyblue;
+}
+
+#commandCell {
+	text-align: center;
+}
+
+#articleForm {
+	width: 500px;
+	height: 500px;
+	border: 1px solid red;
+	margin: auto;
+}
+
+#basicInfoArea {
+	height: 40px;
+	text-align: center;
+}
+
+#articleContentArea {
+	background: orange;
+	margin-top: 20px;
+	height: 350px;
+	text-align: center;
+	overflow: auto;
+}
+
+#commandList {
+	margin: auto;
+	width: 500px;
+	text-align: center;
+}
+
+#passForm {
+	width: 400px;
+	margin: auto;
+	border: 1px solid orange;
+}
+
+a:hover {
+	background-color: green;
+}
+
+a {
+	text-decoration: none;
+}
