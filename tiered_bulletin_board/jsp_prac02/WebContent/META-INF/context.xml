@@ -12,16 +12,4 @@
 	maxActive = "500"
 	maxIdle = "100" />
 </Context>
-<!-- jdbc: java data base connection 자바와 db를 연결시킴 
-자바의 컨테이너로 오라클 디비를 연결 예정 username과 password 빼고는 공통 정보
-url은 오라클 접속 가능하게 해 줌
-maxActive: 동시에 사용할 수 있는 최대 커넥션 개수(현재 코드는 500 접속자까지 허용하겠다는 의미)
-maxIdle: Connection Pool에 반납할 때 최대로 유지될 수 있는 커넥션 개수(100개를 만들어두겠다는 의미)
-사용되지 않고 풀에 저장될 수 있는 최대 커넥션 개수
-Connection Pool:미리 커넥션을 만들어두겠다는 의미(미리 몇 개를 만들어두겠다는 뜻)
-커넥션 풀: 요청이 왔을 때, 디비 커넥션을 만들면 시간이 오래 걸리므로 응답 지원됨
-따라서, 재능 공유 인력 풀처럼 미리 커넥션을 만들어두고, 요청 시 바로바로 처리할 수 있도록 한 것
 
-ojdbc8.jar
-oracle java database connection 1.8 support
--->
